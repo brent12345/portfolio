@@ -1,0 +1,25 @@
+<template>
+<nav class="font-mono">
+    <ul class="flex space-x-4">
+        <li>
+            <NuxtLink to="/" class="link">Main</NuxtLink>
+        </li>
+        <li>
+            <NuxtLink to="/about" class="link">about</NuxtLink>
+        </li>
+        <li>
+            <NuxtLink to="/Projects" class="link">Projects</NuxtLink>
+        </li>
+        <li>
+            <NuxtLink to="/blog" class="link">Blog</NuxtLink>
+        </li>
+    </ul>
+
+</nav>
+</template>
+
+<style scoped>
+.link {
+    @apply p-1 hover:bg-gray-200
+}
+</style>
